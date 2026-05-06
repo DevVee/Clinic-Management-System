@@ -1,21 +1,36 @@
 <?php
 session_start();
-require_once __DIR__ . '/config/database.php';
 
-function isValidSession($conn, $user_id, $session_id) {
-    try {
-        $stmt = $conn->prepare("SELECT last_active FROM sessions WHERE user_id = ? AND session_id = ?");
-        $stmt->execute([$user_id, $session_id]);
-        $session = $stmt->fetch(PDO::FETCH_ASSOC);
-        return $session && (time() - strtotime($session['last_active']) < 3600);
-    } catch (Exception $e) {
-        return false;
-    }
+// Try DB connection — if it fails, still show the landing page
+$conn = null;
+try {
+    $host     = getenv('DB_HOST')     ?: 'localhost';
+    $dbname   = getenv('DB_NAME')     ?: 'postgres';
+    $username = getenv('DB_USER')     ?: 'postgres';
+    $password = getenv('DB_PASSWORD') ?: '';
+    $port     = getenv('DB_PORT')     ?: '5432';
+    $conn = new PDO(
+        "pgsql:host=$host;port=$port;dbname=$dbname;sslmode=require",
+        $username, $password,
+        [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
+    );
+} catch (Exception $e) {
+    error_log("index.php DB error: " . $e->getMessage());
 }
 
-if (isset($_SESSION['user_id']) && isValidSession($conn, $_SESSION['user_id'], session_id())) {
-    header('Location: /dashboard');
-    exit;
+// Only redirect logged-in users if DB is available
+if ($conn && isset($_SESSION['user_id'])) {
+    try {
+        $stmt = $conn->prepare("SELECT last_active FROM sessions WHERE user_id = ? AND session_id = ?");
+        $stmt->execute([$_SESSION['user_id'], session_id()]);
+        $session = $stmt->fetch(PDO::FETCH_ASSOC);
+        if ($session && (time() - strtotime($session['last_active']) < 3600)) {
+            header('Location: /dashboard');
+            exit;
+        }
+    } catch (Exception $e) {
+        // Session check failed — just show the landing page
+    }
 }
 ?>
 <!DOCTYPE html>

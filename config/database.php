@@ -14,5 +14,14 @@ try {
     );
 } catch (PDOException $e) {
     error_log("DB connection failed: " . $e->getMessage());
-    die(json_encode(['error' => 'Database connection failed.']));
+    // Pages that need DB will handle $conn being null
+    $conn = null;
+
+    // Only output JSON error for API/AJAX calls
+    if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) ||
+        strpos($_SERVER['REQUEST_URI'] ?? '', '/api/') !== false) {
+        header('Content-Type: application/json');
+        http_response_code(503);
+        die(json_encode(['error' => 'Database connection failed.']));
+    }
 }
