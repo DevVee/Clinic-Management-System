@@ -1,0 +1,5 @@
+# Deny direct web access to model files
+<FilesMatch "\.gguf$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>

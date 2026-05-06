@@ -1,0 +1,5 @@
+# Deny direct web access to executables
+<FilesMatch "\.(exe|dll|bat|sh)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>

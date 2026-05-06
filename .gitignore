@@ -1,0 +1,32 @@
+# Environment & secrets
+.env
+*.env.local
+.env.production
+
+# Composer dependencies (install on server)
+/vendor/
+
+# Uploaded user files (not committed — use cloud storage in production)
+/uploads/
+
+# AI model & Windows-only binaries (too large / OS-specific)
+/ai-model/*.gguf
+/llama/*.exe
+/llama/*.dll
+/llama.cpp/
+
+# Claude Code IDE settings
+/.claude/
+
+# Log files
+*.log
+
+# Production database dump with real patient data — never commit
+u456627434_sscms_system.sql
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

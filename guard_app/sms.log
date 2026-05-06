@@ -1,0 +1,85 @@
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09682564352, Response: [{"message_id":254977745,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639682564352","message":"Paolo Gabriel Gonzales has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2025-09-11 13:04:32","updated_at":"2025-09-11 13:04:32"}][SSCMS Guard Dashboard] Preparing SMS for visit_id=6: Message='Paolo Gabriel Gonzales has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] SMS Request: Number=09682564352, Message=Paolo Gabriel Gonzales has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09682564352
+    [message] => Paolo Gabriel Gonzales has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09682564352, Response: [{"message_id":254977939,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639682564352","message":"Paolo Gabriel Gonzales has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2025-09-11 13:09:08","updated_at":"2025-09-11 13:09:08"}][SSCMS Guard Dashboard] Preparing SMS for visit_id=25: Message='John Gabriel  Lagos has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] SMS Request: Number=09753760598, Message=John Gabriel  Lagos has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09753760598
+    [message] => John Gabriel  Lagos has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09753760598, Response: [{"message_id":255235106,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639753760598","message":"John Gabriel  Lagos has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2025-09-16 15:29:19","updated_at":"2025-09-16 15:29:19"}][SSCMS Guard Dashboard] Preparing SMS for visit_id=33: Message='Mathina Arquileta has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] Preparing SMS for visit_id=42: Message='Lhian Maulleon has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] SMS Request: Number=09171676750, Message=Lhian Maulleon has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09171676750
+    [message] => Lhian Maulleon has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09171676750, Response: [{"message_id":255279687,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639171676750","message":"Lhian Maulleon has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2025-09-17 13:16:55","updated_at":"2025-09-17 13:16:55"}][SSCMS Guard Dashboard] Preparing SMS for visit_id=48: Message='Justin Esteleydes has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] SMS Request: Number=09217658657, Message=Justin Esteleydes has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09217658657
+    [message] => Justin Esteleydes has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09217658657, Response: [{"message_id":255323039,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639217658657","message":"Justin Esteleydes has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2025-09-18 10:39:54","updated_at":"2025-09-18 10:39:54"}][SSCMS Guard Dashboard] Preparing SMS for visit_id=47: Message='Joseph Benedict Rivera has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] SMS Request: Number=09913674330, Message=Joseph Benedict Rivera has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09913674330
+    [message] => Joseph Benedict Rivera has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09913674330, Response: [{"message_id":255323737,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639913674330","message":"Joseph Benedict Rivera has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2025-09-18 10:55:39","updated_at":"2025-09-18 10:55:39"}][SSCMS Guard Dashboard] Preparing SMS for visit_id=50: Message='Renz John Temenia  has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] SMS Request: Number=09648931630, Message=Renz John Temenia  has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09648931630
+    [message] => Renz John Temenia  has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09648931630, Response: [{"message_id":255324613,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639648931630","message":"Renz John Temenia  has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Unknown","status":"Pending","type":"Single","source":"Api","created_at":"2025-09-18 11:12:47","updated_at":"2025-09-18 11:12:47"}][SSCMS Guard Dashboard] Preparing SMS for visit_id=51: Message='Jan Christine Paredes has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] SMS Request: Number=09351357861, Message=Jan Christine Paredes has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09351357861
+    [message] => Jan Christine Paredes has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09351357861, Response: [{"message_id":255325806,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639351357861","message":"Jan Christine Paredes has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2025-09-18 11:37:31","updated_at":"2025-09-18 11:37:31"}][SSCMS Guard Dashboard] Preparing SMS for visit_id=94: Message='Kristel Beyoncee  Baldrias has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] SMS Request: Number=09918300751, Message=Kristel Beyoncee  Baldrias has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09918300751
+    [message] => Kristel Beyoncee  Baldrias has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09918300751, Response: [{"message_id":255912475,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639918300751","message":"Kristel Beyoncee  Baldrias has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2025-09-30 09:43:15","updated_at":"2025-09-30 09:43:15"}][SSCMS Guard Dashboard] Preparing SMS for visit_id=98: Message='Lady Coleen Marquez has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] SMS Request: Number=09922646414, Message=Lady Coleen Marquez has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09922646414
+    [message] => Lady Coleen Marquez has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09922646414, Response: [{"message_id":255920259,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639922646414","message":"Lady Coleen Marquez has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Smart","status":"Pending","type":"Single","source":"Api","created_at":"2025-09-30 11:13:07","updated_at":"2025-09-30 11:13:07"}][SSCMS Guard Dashboard] Preparing SMS for visit_id=153: Message='Roilan  Eridao has passed the guard house after their clinic visit.'[SSCMS Guard Dashboard] SMS Request: Number=09634075848, Message=Roilan  Eridao has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09634075848
+    [message] => Roilan  Eridao has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09634075848, Response: [{"message_id":257504544,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639634075848","message":"Roilan  Eridao has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Unknown","status":"Pending","type":"Single","source":"Api","created_at":"2025-10-24 12:00:16","updated_at":"2025-10-24 12:00:16"}][SSCMS Guard Dashboard] SMS Request: Number=09168927345, Message=Prince Arvee Avena has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09168927345
+    [message] => Prince Arvee Avena has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09168927345, Response: [{"message_id":268216678,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639168927345","message":"Prince Arvee Avena has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2026-04-09 16:30:34","updated_at":"2026-04-09 16:30:34"}][SSCMS Guard Dashboard] SMS Request: Number=09754984075, Message=Chariss May Caraig has passed the guard house after their clinic visit., Data=Array
+(
+    [apikey] => 2840c5de6cdfbe118d100ad33fdc179b
+    [number] => 09754984075
+    [message] => Chariss May Caraig has passed the guard house after their clinic visit.
+    [sendername] => ICCBICLINIC
+)
+[SSCMS Guard Dashboard] SMS Response: HTTP Code: 200, Number: 09754984075, Response: [{"message_id":268223413,"user_id":55787,"user":"princearveeavena@gmail.com","account_id":55648,"account":"ICCBI CLINIC","recipient":"639754984075","message":"Chariss May Caraig has passed the guard house after their clinic visit.","sender_name":"ICCBICLINIC","network":"Globe","status":"Pending","type":"Single","source":"Api","created_at":"2026-04-09 19:29:51","updated_at":"2026-04-09 19:29:51"}]
