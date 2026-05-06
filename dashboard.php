@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 include 'PHP/dashboard.php';
 require_once __DIR__ . '/system/dashboard_config.php';
 require_once __DIR__ . '/system/ui_config.php';

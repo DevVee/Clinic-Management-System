@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // /system/ui_config.php
 
 // UI configuration for dashboard

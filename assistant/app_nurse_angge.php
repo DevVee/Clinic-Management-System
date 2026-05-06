@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // ============================================================
 // NURSE ANGGE — SSCMS Mobile App (app.php)
 // Single-file PHP app for ICCBI Smart School Clinic

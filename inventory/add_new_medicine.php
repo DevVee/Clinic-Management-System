@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 ob_start(); // Start output buffering
 session_start();
 require_once '../config/database.php';

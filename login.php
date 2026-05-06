@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Set session cookie parameters before starting session
 $remember = isset($_POST['remember']) && $_POST['remember'] === 'on';
 if ($remember) {

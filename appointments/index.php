@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Initialize session and database connection
 session_start();
 require_once '../config/database.php';

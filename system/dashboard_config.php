@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // /system/dashboard_config.php
 
 // Configuration for dashboard stat cards

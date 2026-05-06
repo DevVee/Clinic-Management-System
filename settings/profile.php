@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Handle Profile Update
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['action'] === 'update_profile') {
     try {
